@@ -12,7 +12,7 @@ class Forecast extends React.Component<{ data: any }> {
 
     return (
       <Box>
-        <label className="title">Daily</label>
+        <label className="title">Today</label>
         <div>
           {data.list.splice(0, 7).map((item: any, idx: any) => (
             <div key={idx}>
