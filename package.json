@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "19.0.0",
+    "node": "16.0.0",
     "npm": "8.19.2"
   },
   "proxy": "http://localhost:3000",
