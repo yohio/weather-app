@@ -6,6 +6,7 @@
     "node": "19.0.0",
     "npm": "8.19.2"
   },
+  "proxy": "http://localhost:3000",
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
@@ -34,8 +35,7 @@
     "start": "concurrently --kill-others \"less-watch-compiler --config ./src/less-watch-compiler.config.json\" \"react-scripts start\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
