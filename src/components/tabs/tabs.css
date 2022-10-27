@@ -4,4 +4,7 @@ button.MuiTab-root {
 div.MuiTabs-flexContainer {
   justify-content: space-around;
 }
+.MuiTypography-root {
+  box-shadow: 0 0px 10px #9f9f9f;
+}
 /*# sourceMappingURL=tabs.css.map */
