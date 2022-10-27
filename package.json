@@ -2,6 +2,10 @@
   "name": "react-weather-app",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "19.0.0",
+    "npm": "8.19.2"
+  },
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
