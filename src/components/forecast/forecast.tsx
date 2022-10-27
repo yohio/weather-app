@@ -18,8 +18,7 @@ class Forecast extends React.Component<{ data: any }> {
             <img src={`icons/${item.weather[0].icon}.png`} className="icon-small"
                  alt="weather"/>
             <label className="description">{item.weather[0].description}</label>
-            <label className="min-max">{Math.round(item.main.temp_max)}°
-              /{Math.round(item.main.temp_min)}°C</label>
+            <label className="min-max">{Math.round(item.main.temp_max)}°/{Math.round(item.main.temp_min)}°C</label>
           </Box>
         ))}
       </Box>
