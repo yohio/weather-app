@@ -1,8 +1,16 @@
-@app-primary: #0f3460;
+@app-primary: #5fb0e8;
 @app-secondary: #e94560;
+@app-background: #eef6fb;
 
 .App {
   text-align: center;
+  padding: 10vh 20vw;
+  color: #333339;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 
 .App-logo {
@@ -23,6 +31,12 @@
 
 .App-link {
   color: @app-secondary;
+}
+
+.App,
+.MuiTabs-root,
+.MuiBox-root {
+  background-color: @app-background;
 }
 
 @keyframes App-logo-spin {

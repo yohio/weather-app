@@ -57,7 +57,7 @@ export default function MainTabs() {
           `${WEATHER_API_URL}/weather?lat=${response.results[0].geometry.location.lat}&lon=${response.results[0].geometry.location.lng}&appid=${WEATHER_API_KEY}&units=metric`
         );
         const forecastFetch = await fetch(
-          `${WEATHER_API_URL}/forecast?lat=${response.results[0].geometry.location.lat}&lon=${response.results[0].geometry.location.lng}&appid=${WEATHER_API_KEY}&units=metric`
+          `${WEATHER_API_URL}/forecast?lat=${response.results[0].geometry.location.lat}&lon=${response.results[0].geometry.location.lng}&appid=${WEATHER_API_KEY}&units=metric&cnt=4`
         );
 
         console.info()

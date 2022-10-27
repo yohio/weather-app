@@ -1,12 +1,19 @@
 .App {
   text-align: center;
+  padding: 10vh 20vw;
+  color: #333339;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
 }
 .App-header {
-  background-color: #0f3460;
+  background-color: #5fb0e8;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -17,6 +24,11 @@
 }
 .App-link {
   color: #e94560;
+}
+.App,
+.MuiTabs-root,
+.MuiBox-root {
+  background-color: #eef6fb;
 }
 @keyframes App-logo-spin {
   from {
